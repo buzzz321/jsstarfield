@@ -1,5 +1,6 @@
 # makefile to automatize simple operations
-
+server3:
+	python -m http.server
 server:
 	python -m SimpleHTTPServer
 
